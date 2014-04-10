@@ -1,7 +1,12 @@
+body {
+  height: 1550px;
+}
 #topLevel {
-  box-shadow: inset 0px 0px 200px 20px rgba(0,0,0,0.9);
+  box-shadow: inset 0px 0px 200px 100px rgba(0,0,0,0.9);
+  background: url('dark-wood.jpg') no-repeat;
+  background-size: cover;
   width: auto;
-  height: 750px;
+  height: 1500px;
 }
 
 #content {
@@ -13,8 +18,8 @@
 
 .canDrag {
   box-shadow: 3px 3px 15px rgba(0,0,0,0.9);
-  width: 300px;
-  height: 300px;
+  width: 637px;
+  height: 825px;
 }
 
 .canDrag.ui-draggable-dragging {
@@ -22,22 +27,34 @@
 }
 
 #redBox{
-  background: red;
+  background: url('paper1.jpg') no-repeat;
+  background-size: cover;
   float: left;
-  top: 9%;
-  left: 25%;
+  top: 3%;
+  left: 20%;
+  -ms-transform: rotate(3deg); /* IE 9 */
+  -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
+  transform: rotate(3deg);
 }
 
 #blueBox {
-  background: blue;
+  background: url('paper2.jpg') no-repeat;
+  background-size: cover;
   float: left;
-  top: 12%;
-  left: 7%;
+  top: -55%;
+  left: 15%;
+  -ms-transform: rotate(-1deg); /* IE 9 */
+  -webkit-transform: rotate(-1deg); /* Chrome, Safari, Opera */
+  transform: rotate(-1deg);
 }
 
 #greenBox {
-  background: green;
+  background: url('paper1.jpg') no-repeat;
+  background-size: cover;
   float: left;
-  top: 11%;
-  left: -12%;
+  top: -100%;
+  left: 17%;
+  -ms-transform: rotate(1deg); /* IE 9 */
+  -webkit-transform: rotate(1deg); /* Chrome, Safari, Opera */
+  transform: rotate(1deg);
 }
