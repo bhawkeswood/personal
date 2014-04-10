@@ -1,0 +1,43 @@
+#topLevel {
+  box-shadow: inset 0px 0px 200px 20px rgba(0,0,0,0.9);
+  width: auto;
+  height: 750px;
+}
+
+#content {
+  padding: 10%;
+  width: inherit;
+  height: inherit;
+  z-index: -1;
+}
+
+.canDrag {
+  box-shadow: 3px 3px 15px rgba(0,0,0,0.9);
+  width: 300px;
+  height: 300px;
+}
+
+.canDrag.ui-draggable-dragging {
+  box-shadow: 10px 10px 20px 10px rgba(0,0,0,0.5);
+}
+
+#redBox{
+  background: red;
+  float: left;
+  top: 9%;
+  left: 25%;
+}
+
+#blueBox {
+  background: blue;
+  float: left;
+  top: 12%;
+  left: 7%;
+}
+
+#greenBox {
+  background: green;
+  float: left;
+  top: 11%;
+  left: -12%;
+}
