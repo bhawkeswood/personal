@@ -24,7 +24,9 @@ body {
 }
 
 .canDrag.ui-draggable-dragging {
-  box-shadow: -10px 12px 20px 10px rgba(0,0,0,0.5);
+  -webkit-box-shadow: -20px 12px 36px 4px rgba(0,0,0,0.75);
+  -moz-box-shadow: -20px 12px 36px 4px rgba(0,0,0,0.75);
+  box-shadow: -20px 12px 36px 4px rgba(0,0,0,0.75);
 }
 
 .text {
