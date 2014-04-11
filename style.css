@@ -17,13 +17,18 @@ body {
 }
 
 .canDrag {
-  box-shadow: 3px 3px 15px rgba(0,0,0,0.9);
+  box-shadow: -3px 5px 15px rgba(0,0,0,0.9);
   width: 637px;
   height: 825px;
+  cursor: pointer;
 }
 
 .canDrag.ui-draggable-dragging {
-  box-shadow: 10px 10px 20px 10px rgba(0,0,0,0.5);
+  box-shadow: -10px 12px 20px 10px rgba(0,0,0,0.5);
+}
+
+.text {
+  cursor: text;
 }
 
 #redBox{
