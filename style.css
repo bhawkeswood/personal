@@ -1,3 +1,5 @@
+/*Site-wide*/
+
 @font-face {
   font-family: Polyglott; src: url('TTWPGOTT.ttf');
 }
@@ -21,6 +23,8 @@ a:hover {
 	transition: color .25s linear;
 }
 
+/*Containers*/
+
 #topLevel {
   box-shadow: inset 0px 0px 200px 100px rgba(0,0,0,0.9);
   background: url('dark-wood.jpg') no-repeat;
@@ -29,6 +33,15 @@ a:hover {
   height: 1500px;
   z-index: 100;
 }
+
+#content {
+  padding: 10%;
+  width: inherit;
+  height: 1200px;
+  z-index: -1;
+}
+
+/*Decorative*/
 
 #drink {
   background: url('jackdaniels.jpg') no-repeat;
@@ -40,13 +53,6 @@ a:hover {
   position: absolute;
   height: 400px;
   width: 420px;
-}
-
-#content {
-  padding: 10%;
-  width: inherit;
-  height: 1200px;
-  z-index: -1;
 }
 
 .canDrag {
@@ -67,6 +73,8 @@ a:hover {
   cursor: text;
 }
 
+/*Draggable Items*/
+
 #workBox{
   background: url('paper1.jpg') no-repeat;
   background-size: cover;
@@ -78,7 +86,7 @@ a:hover {
   transform: rotate(3deg);
 }
 
-#blueBox {
+#educationBox {
   background: url('paper2.jpg') no-repeat;
   background-size: cover;
   float: left;
@@ -89,7 +97,7 @@ a:hover {
   transform: rotate(-1deg);
 }
 
-#greenBox {
+#skillBox {
   background: url('paper1.jpg') no-repeat;
   background-size: cover;
   float: left;
@@ -102,4 +110,19 @@ a:hover {
 
 html {
   max-height:100vh;
+}
+
+/*Social Media*/
+
+#socialMedia {
+  height: auto;
+  position: absolute;
+  top: 150%;
+  right: 2%;
+}
+
+.mediaButtons {
+  background-color: tomato;
+  height: 75px;
+  width: 75px;
 }
