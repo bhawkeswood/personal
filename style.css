@@ -1,6 +1,25 @@
+@font-face {
+  font-family: Polyglott; src: url('TTWPGOTT.ttf');
+}
+
 body {
   height: 1550px;
+  font-family: Polyglott;
+  font-size: 18px;
 }
+
+a:link, a:visited {
+	color: black;
+	-webkit-transition: color .25s linear .1s;
+	transition; color .25s linear .1s;
+}
+
+a:hover {
+	color: grey;
+	-webkit-transition: color .25s linear;
+	transition: color .25s linear;
+}
+
 #topLevel {
   box-shadow: inset 0px 0px 200px 100px rgba(0,0,0,0.9);
   background: url('dark-wood.jpg') no-repeat;
@@ -18,6 +37,7 @@ body {
 
 .canDrag {
   box-shadow: -3px 5px 15px rgba(0,0,0,0.9);
+  padding: 0px 25px 0px 25px;
   width: 637px;
   height: 825px;
   cursor: pointer;
@@ -33,7 +53,7 @@ body {
   cursor: text;
 }
 
-#redBox{
+#workBox{
   background: url('paper1.jpg') no-repeat;
   background-size: cover;
   float: left;
