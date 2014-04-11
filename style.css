@@ -27,6 +27,19 @@ a:hover {
   background-size: cover;
   width: auto;
   height: 1500px;
+  z-index: 100;
+}
+
+#drink {
+  background: url('jackdaniels.jpg') no-repeat;
+  background-size: cover;
+  border-radius: 190px;
+  box-shadow: inset 10px 10px 50px 25px rgba(0,0,0,0.9);
+  margin-left: -100px;
+  margin-top: -100px;
+  position: absolute;
+  height: 400px;
+  width: 420px;
 }
 
 #content {
