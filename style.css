@@ -124,5 +124,12 @@ html {
 .mediaButtons {
   background-color: tomato;
   height: 75px;
+  margin: 5px;
   width: 75px;
+}
+
+#footer {
+  background-color: tomato;
+  width: 100%;
+  height: 75px;
 }
