@@ -18,7 +18,7 @@ a:link, a:visited {
 }
 
 a:hover {
-	color: grey;
+	color: rgb(105,76,60);
 	-webkit-transition: color .25s linear;
 	transition: color .25s linear;
 }
