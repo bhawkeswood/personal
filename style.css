@@ -165,6 +165,19 @@ html {
   position: absolute;
 }
 
+#author:link, #author:visited {
+  color: rgb(105,76,60);
+  -webkit-transition: color .25s linear .1s;
+  transition; color .25s linear .1s;
+  text-decoration: none;
+}
+
+#author:hover {
+  color: white;
+  -webkit-transition: color .25s linear;
+  transition: color .25s linear;
+}
+
 #ffLogo {
   position: absolute;
   background-size: cover;
